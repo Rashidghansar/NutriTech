@@ -1,0 +1,24 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix backend\"",
+    "start:frontend": "npm start --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "dev": "npm run start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "blurhash": "^2.0.5",
+    "i18next": "^25.3.2",
+    "jsqr": "^1.4.0",
+    "react-device-detect": "^2.2.3",
+    "react-i18next": "^15.6.1",
+    "react-lazy-load-image-component": "^1.6.3",
+    "swr": "^2.3.4"
+  }
+}
