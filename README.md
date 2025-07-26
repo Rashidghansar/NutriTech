@@ -1,4 +1,4 @@
-# Food Grading & Recommendation System 🍽️📊
+# NutriTech: Food Grading & Recommendation System 🍽️📊
 
 ## Overview
 
@@ -81,4 +81,4 @@ MIT License
 
 ---
 
-Happy Healthy Eating! 🥗🥦🍎 
+Happy Healthy Eating! 🥗🥦🍎
